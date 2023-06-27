@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+    "@Curso/entities": ["./src/Curso/entities"],
+    "@Curso/dtos": ["./src/Curso/dtos"],
+    "@Curso/providers": ["./src/Curso/providers"],
+    "@Curso/services": ["./src/Curso/services"],
+    "@Curso/controllers": ["./src/Curso/controllers"],
+    "@Curso/modules": ["./src/Curso/modules"],
+    "@Curso/database": ["./src/Curso/database"],
+    "@shared/enums":["./src/shared/enums"],
+    "@shared/validations":["./src/shared/validation"],
+    "@shared/models":["./src/shared/models"],
+    }
+  }
+}
