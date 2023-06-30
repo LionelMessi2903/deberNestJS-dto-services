@@ -1,7 +1,7 @@
 import { Column, CreateDateColumn, DeleteDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { ParticipantesEntity } from "./participantes.entity";
 
-@Entity('curso', { schema: 'curso' })
+@Entity('course', { schema: 'course' })
 export class CursoEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;

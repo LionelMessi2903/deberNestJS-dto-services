@@ -1,13 +1,13 @@
 import { Column, CreateDateColumn, DeleteDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
-import { CursoEntity } from "./curso.entity";
+import { CursoEntity } from "./course.entity";
 
-@Entity('participantes', { schema: 'curso' })
+@Entity('participantes', { schema: 'course' })
 export class ParticipantesEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @CreateDateColumn({
-    name: 'create_at', //trabajamos con guion bajo
+    name: 'create_at', 
     type: 'timestamp',
     default: () => 'CURRENT_TIMESTAMP',
   })

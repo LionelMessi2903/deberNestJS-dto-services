@@ -1,3 +1,3 @@
-export * from './curso.providers';
+export * from './course.providers';
 
 //ADRIAN MUÑOZ

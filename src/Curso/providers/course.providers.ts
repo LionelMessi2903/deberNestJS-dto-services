@@ -1,4 +1,4 @@
-import { CursoEntity } from "../entities/curso.entity";
+import { CursoEntity } from "../entities/course.entity";
 import { ParticipantesEntity } from "../entities/participantes.entity";
 import { DataSourceEnum, RepositoryEnum } from "src/shared/enums";
 import { DataSource } from "typeorm";
